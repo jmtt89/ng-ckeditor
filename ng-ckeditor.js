@@ -72,6 +72,7 @@ app.directive('ckeditor', ['$timeout', '$q', function ($timeout, $q) {
                 };
                 options = angular.extend(options, scope[attrs.ckeditor]);
 
+                CKEDITOR.env.isCompatible= true;
                 var instance = (isTextarea) ? CKEDITOR.replace(element[0], options) : CKEDITOR.inline(element[0], options),
                     configLoaderDef = $q.defer();
 
