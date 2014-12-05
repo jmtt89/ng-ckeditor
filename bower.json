@@ -1,7 +1,7 @@
 {
     "name": "jmtt-angular-ckeditor",
     "version": "0.2.2",
-    "main": "ng-ckeditor.min.js",
+    "main": "ng-ckeditor.js",
     "dependencies": {
         "angular": "~1.2.9"
     },
